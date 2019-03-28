@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:600');
-body{
+
+body {
     background-color: #ffb199;
 }
+
 #drums {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
 }
-#buttons{
+
+#buttons {
     position: absolute;
     margin-top: 7%;
     margin-left: 3%;
@@ -18,15 +21,17 @@ body{
     font-size: 35px;
 
 }
-.enlarge{
+
+.enlarge {
     animation: textChange .5s;
 }
 
-@keyframes textChange{
-    50%{
+@keyframes textChange {
+    50% {
         font-size: 70px;
     }
-    100%{
+
+    100% {
         font-size: 35px;
     }
 }

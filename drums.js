@@ -24,8 +24,8 @@ function keys(e) {
     console.log("the pressed key is " + e.key + "(no. " + e.which + ")");
     if (e.which == 87) {
         boom.currentTime = 0;
-        BoomText.classList.toggle('enlarge');
         boom.play();
+        BoomText.classList.toggle('enlarge');
     } else if (e.which == 69) {
         clap.currentTime = 0;
         ClapText.classList.toggle('enlarge');
@@ -59,4 +59,5 @@ function keys(e) {
         TomText.classList.toggle('enlarge');
         tom.play();
     }
+
 }
